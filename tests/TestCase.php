@@ -2,9 +2,9 @@
 
 namespace Alqahtani\Example\Tests;
 
+use Alqahtani\Example\ExampleServiceProvider;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
-use Alqahtani\Example\ExampleServiceProvider;
 
 class TestCase extends Orchestra
 {
