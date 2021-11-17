@@ -1,16 +1,16 @@
 <?php
 
-namespace VendorName\Skeleton\Facades;
+namespace Alqahtani\Example\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
 /**
- * @see \VendorName\Skeleton\Skeleton
+ * @see \Alqahtani\Example\Example
  */
-class Skeleton extends Facade
+class Example extends Facade
 {
     protected static function getFacadeAccessor()
     {
-        return 'skeleton';
+        return 'laravel-example';
     }
 }
